@@ -11,34 +11,29 @@ export const languageOptions = [
   
 export const sidebarLinks = [
     {
-      imgURL: "/assets/home.svg",
+      imgURL: "/assets/hash.svg",
       route: "/",
       label: "Home",
     },
     {
-      imgURL: "/assets/search.svg",
-      route: "/search",
-      label: "Search",
+      imgURL: "/assets/hash.svg",
+      route: "/about-me",
+      label: "About me",
     },
     {
-      imgURL: "/assets/heart.svg",
-      route: "/activity",
-      label: "Activity",
+      imgURL: "/assets/hash.svg",
+      route: "/technologies",
+      label: "Technologies",
     },
     {
-      imgURL: "/assets/create.svg",
-      route: "/create-thread",
-      label: "Create Thread",
+      imgURL: "/assets/hash.svg",
+      route: "/projects",
+      label: "Projects",
     },
     {
-      imgURL: "/assets/community.svg",
-      route: "/communities",
-      label: "Communities",
-    },
-    {
-      imgURL: "/assets/user.svg",
-      route: "/profile",
-      label: "Profile",
+      imgURL: "/assets/hash.svg",
+      route: "/contact",
+      label: "Contact",
     },
   ];
   

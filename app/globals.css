@@ -83,8 +83,35 @@ LEFT SIDE BAR
 
 **********************/
 .left-side-bar{
-  border: 1px solid red;
+  width: 13rem;
+  border-right: 1px solid #1E2D3D;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
+.left-side-container{
+  display: grid;
+  grid-template-rows: repeat(6, 1fr);
+  gap: 1rem;
+  margin-top: 2rem;
+}
+.leftsidebar-link {
+  text-decoration: none;
+  font-size: 14px;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: .1rem;
+}
+.link-active {
+  color: #5565E8;
+}
+.leftsidebar-link img{
+  width: 1rem;
+}
+
+
+
+
 .footer {
   border: 1px solid white;
 }
